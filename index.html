@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real Madrid CF</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f4f7ff;
+            color: #061b49;
+        }
+
+        nav {
+            background: #061b49;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            color: gold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #061b49, #164b9b);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero img {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            color: gold;
+        }
+
+        button {
+            background: gold;
+            color: #061b49;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 30px;
+        }
+
+        .about {
+            background: #e1ebff;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 230px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #b8c5dc;
+        }
+
+        .card h3 {
+            color: #164b9b;
+        }
+
+        .number {
+            font-size: 40px;
+            color: #d6a600;
+            font-weight: bold;
+        }
+
+        .icon {
+            font-size: 45px;
+        }
+
+        footer {
+            background: #061b49;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        footer h2 {
+            color: gold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>REAL MADRID</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#highlights">Highlights</a>
+            <a href="#trophies">Trophies</a>
+        </div>
+    </nav>
+
+    <div class="hero" id="home">
+
+        <img src="./real-madrid-3d.png.jpeg"
+        alt="Real Madrid Logo">
+
+        <h1>HALA MADRID!</h1>
+
+        <p>
+            The Pride of Madrid.
+            The Kings of European Football.
+        </p>
+
+        <button onclick="showMessage()">
+            EXPLORE CLUB
+        </button>
+
+    </div>
+
+    <section class="about" id="about">
+
+        <h2>ABOUT REAL MADRID</h2>
+
+        <p>
+            Real Madrid is one of the greatest football
+            clubs in the world.
+
+            Founded in 1902, the club has a legendary
+            history and millions of fans worldwide.
+        </p>
+
+    </section>
+
+    <section id="highlights">
+
+        <h2>CLUB HIGHLIGHTS</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <div class="icon"></div>
+                <h3>Santiago Bernabéu</h3>
+                <p>
+                    The legendary home of Real Madrid.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon"></div>
+                <h3>European Kings</h3>
+                <p>
+                    A club with an incredible European legacy.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon"></div>
+                <h3>Madridistas</h3>
+                <p>
+                    Millions of passionate fans around the world.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon"></div>
+                <h3>Never Give Up</h3>
+                <p>
+                    The spirit of fighting until the final whistle.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="trophies">
+
+        <h2>OUR GLORIOUS HISTORY</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <div class="number">15</div>
+                <h3>Champions League</h3>
+                <p>European Titles</p>
+            </div>
+
+            <div class="card">
+                <div class="number">36</div>
+                <h3>La Liga</h3>
+                <p>Spanish League Titles</p>
+            </div>
+
+            <div class="card">
+                <div class="number">20</div>
+                <h3>Copa del Rey</h3>
+                <p>Domestic Cup Titles</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h2>HALA MADRID!</h2>
+
+        <p>Real Madrid CF - Beyond Greatness</p>
+
+        <p>© 2026 Real Madrid Fan Website</p>
+
+    </footer>
+
+    <script>
+
+        function showMessage() {
+            alert("Welcome to Real Madrid! Hala Madrid!");
+        }
+
+    </script>
+
+</body>
+</html>
